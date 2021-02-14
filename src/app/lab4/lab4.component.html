@@ -1,0 +1,4 @@
+<ng-container *ngFor="let num of num_arr">
+    <p class="number-even" *ngIf="num %2 ===0">{{ num }}</p>
+    <p class="number-odd" *ngIf="num %2 !==0">{{ num }}</p>
+</ng-container>
